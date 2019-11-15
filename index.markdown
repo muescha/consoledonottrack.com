@@ -31,7 +31,7 @@ Authors, do the *ethical thing* and respect the following environment
 variable in your software and your *limited rights to the computers of your
 users*:
 
-<div class="card card-body bg-light text-center">
+<div class="card card-body bg-light text-center shadow-lg p-3 mb-5 bg-white rounded">
     <h1><code>export DO_NOT_TRACK=1</code></h1>
 </div>
 
