@@ -44,3 +44,6 @@ users*:
 * others: [get
   involved](https://github.com/sneak/consoledonottrack.com/pulls)
 
+# Contribute!
+
+PRs welcome:  [consoledonottrack.com GitHub](https://github.com/sneak/consoledonottrack.com).
