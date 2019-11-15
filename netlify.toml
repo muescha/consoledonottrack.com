@@ -1,0 +1,12 @@
+[[headers]]
+    # Define which paths this specific [[headers]] block will cover.
+    for = "/*"
+
+    [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = "default-src 'none'; img-src 'self' *; font-src 'self' data: fonts.gstatic.com; style-src 'self'; form-action 'none'; connect-src 'self'; script-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; report-uri https://sneakdotberlin.report-uri.com/r/d/csp/enforce ; report-to https://sneakdotberlin.report-uri.com/r/d/csp/enforce ;"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Feature-Policy = "geolocation 'none'; midi 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'none'; payment 'none';"
+    Access-Control-Allow-Origin = "*"

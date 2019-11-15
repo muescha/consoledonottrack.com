@@ -1,0 +1,55 @@
+# Site settings
+title: Console Do Not Track
+email: sneak@sneak.berlin
+description: > # this means to ignore newlines until "baseurl:"
+  A proposed unified standard for opting out of telemetry for 
+  TUI/console apps.
+baseurl: ""
+url: "https://consoledonottrack.com" # the base hostname & protocol for your site
+highlighter: rouge
+exclude:
+    - Makefile
+    - node_modules
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - vendor
+    - README.markdown
+    - secret/status.json
+    - Dockerfile
+    - netlify.toml
+
+plugins:
+    - jekyll-minifier
+    - jekyll-last-modified-at
+    - jekyll-feed
+
+jekyll-minifier:
+    compress_css: true                # Default: true
+    compress_javascript: true         # Default: true
+    compress_json: true               # Default: true
+
+sass:
+  style: compressed
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - strikethrough
+    - superscript
+
+permalink: /:year:month:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "x/"
+    values:
+      image: true
