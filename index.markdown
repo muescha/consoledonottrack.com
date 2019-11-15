@@ -40,7 +40,8 @@ users*:
 
 * homebrew: [Homebrew/brew
   #6745](https://github.com/Homebrew/brew/pull/6745)
-* gatsby: coming soon
+* gatsby: [gatsbyjs/gatsby
+  #19528](https://github.com/gatsbyjs/gatsby/pull/19528)
 * syncthing: [syncthing/syncthing
   #6158](https://github.com/syncthing/syncthing/pull/6158)
 * others: [get
