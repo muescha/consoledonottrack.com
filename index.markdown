@@ -40,7 +40,8 @@ users*:
 
 * homebrew: coming soon
 * gatsby: coming soon
-* syncthing: coming soon
+* syncthing: [syncthing/syncthing
+  #6158](https://github.com/syncthing/syncthing/pull/6158)
 * others: [get
   involved](https://github.com/sneak/consoledonottrack.com/pulls)
 
