@@ -10,8 +10,8 @@ base: .
 [Gatsby](https://www.gatsbyjs.org/) has `GATSBY_TELEMETRY_DISABLED`.
 [Homebrew](https://brew.sh/) has `HOMEBREW_NO_ANALYTICS`.
 [Syncthing](https://syncthing.net/) has `STNOUPGRADE` and some config file
-setting for disabling crash reporting.  Etcher has... well,
-[nothing](https://github.com/balena-io/etcher/issues/2057).
+setting for disabling crash reporting.  <!-- Etcher has... well,
+[nothing](https://github.com/balena-io/etcher/issues/2057). -->
 
 This is a proposal for a single, standard environment variable that plainly
 and unambiguously expresses LACK OF CONSENT by a user of that software to
