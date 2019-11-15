@@ -38,7 +38,8 @@ users*:
 
 # PRs and Status
 
-* homebrew: coming soon
+* homebrew: [Homebrew/brew
+  #6745](https://github.com/Homebrew/brew/pull/6745)
 * gatsby: coming soon
 * syncthing: [syncthing/syncthing
   #6158](https://github.com/syncthing/syncthing/pull/6158)
