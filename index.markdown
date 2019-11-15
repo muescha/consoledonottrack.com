@@ -27,6 +27,10 @@ and unambiguously expresses LACK OF CONSENT by a user of that software to
 We just want local software, and by providing it to us you are not entitled
 to our usage, our crashes, or our IP addresses.
 
+Authors, do the *ethical thing* and respect the following environment
+variable in your software and your *limited rights to the computers of your
+users*:
+
 <div class="card card-body bg-light text-center">
     <h1><code>export DO_NOT_TRACK=1</code></h1>
 </div>
