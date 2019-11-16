@@ -22,11 +22,15 @@ and unambiguously expresses LACK OF CONSENT by a user of that software to
 * usage reporting, anonymous or not
 * automatic update phone-home
 * crash reporting
-* non-essential-to-functionality requests of *any kind* to the creator of
-  the software or other cloud or tracking services
+* *non-essential-to-functionality* requests of *any kind* to the creator of
+  the software or other *tracking services*
 
 We just want local software, and by providing it to us you are not entitled
 to our usage, our crashes, or our IP addresses.
+
+Remember: in the right hands, an IP address is a *physical location*.  If
+you would not collect your users' GPS coordinates against their wishes, you
+should not be collecting their IP addresses against their wishes!
 
 Authors, do the *ethical thing* and respect the following environment
 variable in your software and your *limited rights to the computers of your
