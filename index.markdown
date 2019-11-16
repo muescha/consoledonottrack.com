@@ -53,6 +53,7 @@ users*:
   #19528](https://github.com/gatsbyjs/gatsby/pull/19528)
 * syncthing: [syncthing/syncthing
   #6158](https://github.com/syncthing/syncthing/pull/6158)
+* dotnet: [dotnet/sdk](https://github.com/dotnet/sdk/issues/3917)
 * others: [get
   involved](https://github.com/sneak/consoledonottrack.com/pulls)
 
