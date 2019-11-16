@@ -10,7 +10,11 @@ base: .
 [Gatsby](https://www.gatsbyjs.org/) has `GATSBY_TELEMETRY_DISABLED`.
 [Homebrew](https://brew.sh/) has `HOMEBREW_NO_ANALYTICS`.
 [Syncthing](https://syncthing.net/) has `STNOUPGRADE`, a config file setting
-for disabling crash reporting, and a GUI prompt for usage reporting.  <!--
+for disabling crash reporting, and a GUI prompt for usage reporting.  Google
+Cloud SDK CLI tools has `gcloud config set disable_usage_reporting true`.
+.NET Core has `DOTNET_CLI_TELEMETRY_OPTOUT`.  The AWS Serverless Application
+Model CLI has `SAM_CLI_TELEMETRY=0`.  The Microsoft Azure CLI has
+`AZURE_CORE_COLLECT_TELEMETRY=0`.  You get the idea.<!--
 Etcher has... well,
 [nothing](https://github.com/balena-io/etcher/issues/2057). -->
 
